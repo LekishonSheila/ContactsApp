@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         // Create a list of contacts
         val contacts = mutableListOf(
             ContactData(firstName = "Sheila ", email = "lekishonsheila@gmail.com", phoneNumber = "+254768453", imageResId = R.drawable.avator),
+            ContactData(firstName = "Sheila ", email = "lekishonsheila@gmail.com", phoneNumber = "+254768453", imageResId = R.drawable.avator),
             ContactData(firstName = "Brenda", email = "brendakaleku@gmail.com", phoneNumber = "+25678945678", imageResId = R.drawable.avator),
             ContactData("Mercy","mercyorishaba@gmail.com","0790645342", imageResId = R.drawable.avator),
             ContactData(firstName = "Rita", email = "ritashee@gmail.com", phoneNumber = "07548972345", imageResId = R.drawable.avator ),

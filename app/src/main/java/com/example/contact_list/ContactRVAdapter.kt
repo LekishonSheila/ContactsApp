@@ -22,6 +22,7 @@ class  ContactRvAdapter(private val contactList: List<ContactData>) :
         holder.itemView.findViewById<TextView>(R.id.tvName).text = contact.firstName
         holder.itemView.findViewById<TextView>(R.id.tvEmail).text = contact.email
         holder.itemView.findViewById<TextView>(R.id.tvPhoneNumber).text = contact.phoneNumber
+//        picasso.get().load(contact.imageResId).into(binding.ivContact)
     }
     override fun getItemCount(): Int{
         return contactList.size
