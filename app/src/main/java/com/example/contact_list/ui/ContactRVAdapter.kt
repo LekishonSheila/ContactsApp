@@ -1,4 +1,4 @@
-package com.example.contact_list
+package com.example.contact_list.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.contact_list.R
+import com.example.contact_list.model.ContactData
 
 
 class  ContactRvAdapter(private val contactList: List<ContactData>) :
